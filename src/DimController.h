@@ -1,7 +1,6 @@
 #import "DimWindow.h"
-#import <libactivator/libactivator.h>
 
-@interface DimController : NSObject <LAListener> {
+@interface DimController : NSObject {
 	NSUserDefaults *prefs;
 }
 

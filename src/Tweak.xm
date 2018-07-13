@@ -1,8 +1,5 @@
-#import <libactivator/libactivator.h>
-#import <dlfcn.h>
-#import <objc/runtime.h>
-#import "substrate.h"
 #import "DimController.h"
+#include <notify.h>
 
 BOOL enabledBeforeScreenshot = NO;
 
