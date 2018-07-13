@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+
+			<key>PostNotification</key>
+			<string>pw.ssnull.dimxi/prefschanged</string>
+
+			<key>default</key>
+			<false/>
+
+			<key>defaults</key>
+			<string>pw.ssnull.dimxi</string>
+
+			<key>key</key>
+			<string>enabled</string>
+
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>BRIGHTNESS</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+
+			<key>PostNotification</key>
+			<string>pw.ssnull.dimxi/prefschanged</string>
+
+			<key>default</key>
+			<real>0.5</real>
+
+			<key>defaults</key>
+			<string>pw.ssnull.dimxi</string>
+
+			<key>key</key>
+			<string>brightness</string>
+
+			<key>max</key>
+			<real>1</real>
+
+			<key>min</key>
+			<real>0</real>
+
+			<key>leftImage</key>
+			<string>Brightness.png</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>DimXI</string>
+</dict>
+</plist>

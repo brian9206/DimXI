@@ -1,0 +1,9 @@
+Package: pw.ssnull.dimxi
+Name: DimXI
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Dim your screen even further!
+Maintainer: Brian Choi <brian9206@hotmail.com>
+Author: Brian Choi <brian9206@hotmail.com>
+Section: Tweaks
